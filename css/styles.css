@@ -1,0 +1,363 @@
+
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.container_header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header_item {
+  left: 100px;
+  padding: 50px;
+ 
+}
+.header_item:hover{
+  border-bottom:5px solid #d23166 ;
+
+}
+.header_link {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header_buy {
+  background-color: #d23166;
+  color: white;
+  padding: 14px 50px;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.header_buy:hover{
+border: 2px solid #d23166;
+background-color: white;
+color: #d23166;
+cursor: pointer;
+}
+.header_buy:active{
+background-color: #d23166;
+color: white;
+cursor: pointer;
+opacity: 0.78;
+transition: none;
+}
+.intro_sweet{
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-align: left;
+
+}
+.feel{
+  font-family: 'Fredoka One';
+font-size: 57px;
+font-weight: 400;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+width: 570px;
+}
+.ice{
+  color: #D23166;
+font-family: 'Roboto';
+font-size: 57px;
+font-weight: 500;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.some{
+  font-family: 'Hind Madurai';
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+width: 523px;
+color: black;
+opacity: 0.67;
+margin-top: 35px;
+}
+.intro_buy{
+  text-decoration: none;
+  background-color: #d23166;
+  color: white;
+  padding: 14px 50px;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid #D23166;
+ position: relative;
+ top: 50px;
+}
+.container_content{
+  margin-left: 150px;
+}
+.container_intro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2CEDA;
+}
+.musqaymoq{
+  margin-top: 160px;
+margin-left: -150px;
+}
+.delivery_ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+background-color: rgba(245, 222, 179, 0.411);
+}
+.delivery_item {
+  left: 100px;
+  padding: 50px;
+ 
+}
+.delivery_item1 {
+  left: 100px;
+  padding: 50px;
+ border: 2px solid white;
+ background-color: white;
+}
+.delivery_item2 {
+  left: 100px;
+  padding: 50px;
+ border: 2px solid white;
+ background-color: white;
+}
+.delivery_item3 {
+  left: 100px;
+  padding: 50px;
+ border: 2px solid white;
+ background-color: white;
+
+}
+.delivery_item4 {
+  left: 100px;
+  padding: 50px;
+ border: 2px solid white;
+ background-color: white;
+}
+.free{
+  font-family: 'Hind Madurai';
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;
+}
+.last{
+  font-family: 'Hind Madurai';
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+width: 198px;
+}
+.rasm_1{
+  margin-left: 70px;
+}
+.section_1{
+  margin-top: 90px;
+  background-color: #F8EDF0;
+  height: 600px;
+}
+.section_buy{
+  text-decoration: none;
+  background-color: #d23166;
+  color: white;
+  padding: 14px 50px;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid #D23166;
+position: relative;
+top: 50px;
+}
+.together{
+  font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #150101;
+opacity: 0.67;
+width: 442px;
+}
+.brown{
+  font-family: 'Hind Madurai';
+font-size: 44px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+width: 349px;
+}
+.rasmcha{
+  width:655px ;
+  height:656px ;
+  margin-right: 74px;
+  margin-bottom: 140px;
+}
+.container_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_div{
+  margin-left: 140px;
+  margin-bottom: 150px;
+}
+.our{
+  font-family: 'Hind Madurai';
+font-size: 44px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 500px;
+}
+.main_list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.main_item {
+  left: 100px;
+  padding: 50px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.main_item:hover {
+  border-bottom: 4px solid #D23166;
+  cursor: pointer;
+}
+.main_item1 {
+  left: 100px;
+  padding: 50px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom: 4px solid #D23166;
+}
+.main_link{
+  text-decoration: none;
+  color: black;
+
+}
+.main_buy{
+  text-decoration: none;
+  background-color: #d23166;
+  color: white;
+  padding: 14px 50px;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid #D23166;
+  position: relative;
+  top: 50px;
+}
+.bread{
+  font-family: 'Hind Madurai';
+font-size: 26px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.bon{
+  font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+width: 454px;
+color: black;
+opacity: 0.76;
+}
+.narx{
+  font-size: 40px;
+}
+.section_2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.odamlar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.odam{
+  margin-left: -190px;
+}
